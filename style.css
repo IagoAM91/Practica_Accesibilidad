@@ -1,0 +1,130 @@
+.nav-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: red;
+    border-radius: 5%;
+}
+
+#icono:hover {
+    background-color: red;
+    border-radius: 5%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.container1 div {
+    text-align: center;
+    width: 50%;
+}
+
+
+#gifpizza {
+    width: 100%;
+    height: 600px;
+}
+
+#gifpizza2 {
+    width: 100%;
+    height: 600px;
+}
+
+.container-fluid {
+    text-align: center;
+    
+}
+
+#gradientebbq {
+    /* background-image: linear-gradient(to right top, #8d0a0a, #6f1013, #501415, #321414, #120f0f);*/
+    background-color: #120f0f;
+}
+
+.texto-degradado {
+    background: linear-gradient(yellow, red);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+
+.containerbbq {
+    width: 100%;
+    height: 400px;
+    margin-top: 0;
+    margin-top: -10px;
+    display: flex;
+    
+}
+
+.receta {
+    text-align: center;
+    background-color: #120f0f;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ingredientes {
+    width: 49%;
+}
+
+.formula {
+    width: 49%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerbbq {
+        flex-direction: column;
+    }
+
+    .receta, img {
+        width: 100%;
+    }
+
+    .picante img{
+        margin-top: 400px;
+    }
+
+    .american img {
+        margin-top: 800px;
+    }
+
+}
+
+.list-group-item {
+    background: linear-gradient(yellow, red);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+
+.picante img,
+.american img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
